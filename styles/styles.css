@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -16,7 +16,7 @@ body {
 header {
     width: 100%;
     height: 80px;
-    background-color: azure ;
+    background-color: azure;
 
     position: fixed;
     top: 0;
@@ -49,7 +49,7 @@ header .header-content nav {
     justify-content: center;
 }
 
-#sobre { 
+#sobre {
     width: 100vw;
     height: 100vh;
 
@@ -58,4 +58,36 @@ header .header-content nav {
     justify-content: center;
 }
 
-#turma 
+#turma {
+    width:100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#turma .teste {
+    width: 100vw;
+    height: 100vh;
+}
+
+#individualidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ #izuku {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
