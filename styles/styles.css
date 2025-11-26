@@ -47,6 +47,7 @@ header .header-content nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #sobre {
@@ -56,6 +57,7 @@ header .header-content nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #turma {
@@ -65,17 +67,17 @@ header .header-content nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-#turma .teste {
-    width: 100vw;
-    height: 100vh;
-}
 
 #individualidades {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
  #izuku {
@@ -85,9 +87,36 @@ header .header-content nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
+#Bakugo{
+    width: 100vw;
+    height: 100vh;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#shouto{
+    width: 100vw;
+    height: 100vh;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#viloes{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
