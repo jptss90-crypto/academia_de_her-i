@@ -20,6 +20,7 @@ header {
 
     position: fixed;
     top: 0;
+    z-index: 9999999;
 }
 
 
@@ -61,7 +62,7 @@ header .header-content nav {
 }
 
 #turma {
-    width:100vw;
+    width: 100vw;
     height: 100vh;
 
     display: flex;
@@ -72,15 +73,99 @@ header .header-content nav {
 
 
 #individualidades {
-width: 100vw;
-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
- #izuku {
+#izuku {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/Izuku-bg.jpg') no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+#izuku::after {
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.8);
+}
+
+#izuku .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    z-index: 9999;
+}
+
+#izuku .card .title {
+    margin-bottom: 32px;
+    color: #FFF;
+}
+
+.vida {
+    max-width: 50%;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 48px;
+}
+
+
+#Bakugo {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/Katsuki.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#Bakugo::after {
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+
+#Bakugo .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: 9999;
+}
+
+
+
+#shouto {
     width: 100vw;
     height: 100vh;
 
@@ -90,25 +175,75 @@ align-items: center;
     align-items: center;
 }
 
-#Bakugo{
+#shouto .card .vida {
+    color: rgb(255, 145, 0);
+}
+
+#shouto .card .vida .gelo {
+    color: rgb(72, 190, 245);
+}
+
+#shouto {
     width: 100vw;
     height: 100vh;
+    padding: 80px 0;
 
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/s.png')  no-repeat;
+     background-size: cover;
+    position: relative;
+}
+
+#shouto::after {
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+
+#shouto .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+    z-index: 9999;
 }
 
-#shouto{
-    width: 100vw;
-    height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#shouto .poder {
+    margin-bottom: 32px;
+    color: #FFF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #viloes{
     width: 100vw;
@@ -119,4 +254,3 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
-
