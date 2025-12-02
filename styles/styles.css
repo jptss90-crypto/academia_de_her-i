@@ -61,6 +61,24 @@ header .header-content nav {
     align-items: center;
 }
 
+
+#sobre {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/boku-no-hero-academia-sem-individualidade-20175169-120820201454.jpg') no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+
+
+
 #turma {
     width: 100vw;
     height: 100vh;
@@ -72,6 +90,23 @@ header .header-content nav {
 }
 
 
+
+#turma {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/melho-turma.webp') no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+
+
 #individualidades {
     width: 100vw;
     height: 100vh;
@@ -80,6 +115,26 @@ header .header-content nav {
     justify-content: center;
     align-items: center;
 }
+
+
+#individualidades {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/Individualidades\ Boku\ no\ Hero\ Academia.png') no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+
+
+
+
 
 #izuku {
     width: 100vw;
@@ -218,32 +273,6 @@ header .header-content nav {
 }
 
 
-#shouto .poder {
-    margin-bottom: 32px;
-    color: #FFF;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #viloes{
     width: 100vw;
@@ -253,5 +282,94 @@ header .header-content nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+
+#viloes {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/viloes-de-hero.jpg') no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+
+
+
+#Dabi {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/D.webp') no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+#Dabi::after {
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+#Dabi .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: 9999;
+}
+
+
+
+
+
+#Shigaraki {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+
+    background: url('../assets/imagens/shigaraki.avif') no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+#Shigaraki::after {
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+#Shigaraki .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: 9999;
 }
