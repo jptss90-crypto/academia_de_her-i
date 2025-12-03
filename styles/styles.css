@@ -78,7 +78,6 @@ header .header-content nav {
 
 
 
-
 #turma {
     width: 100vw;
     height: 100vh;
@@ -133,9 +132,6 @@ header .header-content nav {
 
 
 
-
-
-
 #izuku {
     width: 100vw;
     height: 100vh;
@@ -172,6 +168,11 @@ header .header-content nav {
 }
 
 #izuku .card .title {
+    margin-bottom: 32px;
+    color: #FFF;
+}
+
+#izuku .card .poder{
     margin-bottom: 32px;
     color: #FFF;
 }
@@ -216,6 +217,12 @@ header .header-content nav {
 
     position: relative;
     z-index: 9999;
+}
+
+
+#Bakugo .card .poder{
+    margin-bottom: 32px;
+    color: #FFF;
 }
 
 
@@ -274,6 +281,13 @@ header .header-content nav {
 
 
 
+#shouto .card .poder{
+    margin-bottom: 32px;
+    color: #FFF !important;
+}
+
+
+
 #viloes{
     width: 100vw;
     height: 100vh;
@@ -299,7 +313,10 @@ header .header-content nav {
     position: relative;
 }
 
-
+#viloes .card .conhecimento{
+    margin-bottom: 32px;
+    color: #FFF !important;
+}
 
 
 #Dabi {
@@ -335,8 +352,6 @@ header .header-content nav {
     position: relative;
     z-index: 9999;
 }
-
-
 
 
 
