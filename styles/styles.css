@@ -41,6 +41,18 @@ header .header-content nav {
     gap: 24px;
 }
 
+.science-gothicuniquifier{
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "CTRS" 0;
+  }
+
+
 #hero {
     width: 100vw;
     height: 100vh;
@@ -49,6 +61,7 @@ header .header-content nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Science Gothic", sans-serif;
 }
 
 #sobre {
@@ -59,6 +72,7 @@ header .header-content nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Science Gothic", sans-serif;
 }
 
 
@@ -86,6 +100,7 @@ header .header-content nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Science Gothic", sans-serif;
 }
 
 
@@ -113,6 +128,7 @@ header .header-content nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Science Gothic", sans-serif;
 }
 
 
@@ -165,6 +181,7 @@ header .header-content nav {
     position: relative;
 
     z-index: 9999;
+    font-family: "Science Gothic", sans-serif;
 }
 
 #izuku .card .title {
@@ -217,6 +234,7 @@ header .header-content nav {
 
     position: relative;
     z-index: 9999;
+    font-family: "Science Gothic", sans-serif;
 }
 
 
@@ -235,6 +253,7 @@ header .header-content nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Science Gothic", sans-serif;
 }
 
 #shouto .card .vida {
@@ -296,6 +315,7 @@ header .header-content nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Science Gothic", sans-serif;
 }
 
 
@@ -317,6 +337,15 @@ header .header-content nav {
     margin-bottom: 32px;
     color: #FFF !important;
 }
+
+.conhecimento{
+    color: #FFF;
+}
+
+.nome{
+    color: rgb(74, 37, 85);
+}
+    
 
 
 #Dabi {
@@ -351,9 +380,16 @@ header .header-content nav {
 
     position: relative;
     z-index: 9999;
+    font-family: "Science Gothic", sans-serif;
 }
 
+.title{
+    color: #FFF;
+}
 
+.poder{
+    color: #FFF;
+}
 
 #Shigaraki {
     width: 100vw;
@@ -387,4 +423,6 @@ header .header-content nav {
 
     position: relative;
     z-index: 9999;
+    font-family: "Science Gothic", sans-serif;
 }
+
